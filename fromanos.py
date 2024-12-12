@@ -49,7 +49,7 @@ def a_romanos(numero: int) -> str:
         valor_traducido = traducir(valor)
         lista_traducciones.append(valor_traducido)
 
-    lista_traducciones_inversa = lista_traducciones.reverse() # Tambien se puede hacer -> lista_traducciones[::-1]
+    lista_traducciones_inversa = lista_traducciones[::-1]
 
     num_romanos = ""
     for simbolo in lista_traducciones_inversa:

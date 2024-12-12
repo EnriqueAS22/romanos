@@ -25,3 +25,6 @@ def test_traducir():
     assert traducir(30) == "XXX"
     assert traducir(900) == "CM"
     assert traducir(1000) == "M"
+
+def test_romanos_varios():
+    assert a_romanos(1939) == "MCMXXXIX"
